@@ -1,12 +1,9 @@
 function chunkArrayInGroups(arr, size) {
-  
-var newArray = [];
-
-  
-while (arr.length) {
-newArray.push(arr.splice(0, size));
-}
-    // Break it up.
+   var newArray = [];
+    
+  while (arr.length) {
+  newArray.push(arr.splice(0, size));
+  }
   return newArray;
 }
 
